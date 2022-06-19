@@ -13,6 +13,10 @@
     ></script>
     <title>BenKang - Profile Link</title>
     <style>
+      @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+      * {
+        font-family: "Pretendard", serif;
+      }
       body {
         background-color: #44398a;
       }
@@ -28,16 +32,64 @@
       .main {
         color: white;
         font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
       }
       .sub {
         color: white;
         font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+      }
+      .wrap {
+        width: 300px;
+        margin: 30px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .wrap > a {
+        width: 300px;
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #44398a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        box-shadow: 3px 3px 5px 0px black;
+      }
+      .wrap > a:hover {
+        background-color: #f2f2f2;
       }
     </style>
   </head>
   <body>
-    <div class="profile"></div>
-    <h1 class="main">BenKang</h1>
-    <p class="sub">rksk1588@gmail.com</p>
+    <div class="wrap">
+      <div class="profile"></div>
+      <h1 class="main">BenKang</h1>
+      <p class="sub">rksk1588@gmail.com</p>
+      <a target="_blank" href="https://www.github.com/pearlkang">Github</a>
+      <a target="_blank" href="https://pearlkang.github.io/kokoa-clone-2020"
+        >KakaoTalk Clone</a
+      >
+      <a target="_blank" href="https://pearlkang.github.io/momentum"
+        >Default Blank Page</a
+      >
+      <a target="_blank" href="https://bentube.herokuapp.com/">Youtube Clone</a>
+      <a target="_blank" href="https://pearlkang.github.io/vuedongsan"
+        >Vuedongsan</a
+      >
+      <a target="_blank" href="https://pearlkang.github.io/vlog">Vuelog</a>
+      <a target="_blank" href="https://pearlkang.github.io/vuestagram"
+        >Vuestagram</a
+      >
+    </div>
   </body>
 </html>
