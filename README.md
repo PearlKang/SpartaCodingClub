@@ -1,0 +1,2 @@
+# SpartaCodingClub
+scc
