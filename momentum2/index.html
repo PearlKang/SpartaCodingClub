@@ -18,8 +18,46 @@
         font-family: "Poppins", sans-serif;
       }
 
-      .test {
+      body {
+        background-image: url("https://media.timeout.com/images/105211701/image.jpg");
+        background-position: center;
+        color: white;
+      }
+
+      .time {
+        font-size: 80px;
+        font-weight: bold;
+      }
+
+      .greeting {
+        font-size: 50px;
+      }
+
+      .todo {
         font-size: 30px;
+      }
+
+      .author {
+        font-size: 25px;
+        font-style: italic;
+      }
+
+      .main {
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .quote {
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
       }
     </style>
 
@@ -27,14 +65,14 @@
   </head>
 
   <body>
-    <div>
-      <div>12:00</div>
-      <div>Hello, BenKang!</div>
-      <div>주 3회 운동하기!</div>
+    <div class="main">
+      <div class="time">12:00</div>
+      <div class="greeting">Hello, BenKang!</div>
+      <div class="todo">주 3회 운동하기!</div>
     </div>
-    <div>
-      <div>- 명언의 저자 -</div>
-      <div>" 명언의 내용 "</div>
+    <div class="quote">
+      <div class="author">- 명언의 저자 -</div>
+      <div class="content">" 명언의 내용 "</div>
     </div>
   </body>
 </html>
